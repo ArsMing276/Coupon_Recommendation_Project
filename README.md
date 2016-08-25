@@ -1,6 +1,6 @@
 # Coupon_Recommendation_Project
 
-This is a kaggle competition project, it's website is https://www.kaggle.com/c/coupon-purchase-prediction
+This is a kaggle competition project, Here is a short description: "Using past purchase and browsing behavior, this competition asks you to predict which coupons a customer will buy in a given period of time. The resulting models will be used to improve Ponpare's recommendation system, so they can make sure their customers don't miss out on their next favorite thing." it's website is https://www.kaggle.com/c/coupon-purchase-prediction
 
 1. Merged several large tables (coupon area, detail, list, visit info etc.) together in R.
 2. Implemented Artificial Neural Network with backpropagation in Matlab. Used Gender, Age, Coupon Valid Time, Price,
