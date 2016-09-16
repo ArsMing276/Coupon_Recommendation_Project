@@ -8,7 +8,7 @@ etc. as input layer neurons and Coupon Location, Genres, Discount Rate as output
 between behavior predictions for potential users and testing coupon’s info to determine which coupon to recommend.
 3. Implemented composite SVM with Sequential Minimal Optimization in Matlab to classify each customer into a specific
 (Coupon Location, Genres, Discount Rate) Category using the same features as in ANN for coupon recommendation.
-4. Adopted Matrix Completion to successfully predict the missing purchasing numbers, found users’ behavior based on this
+4. Implemented Matrix Factorization with Alternating Least Squares to successfully predict the missing purchasing numbers, found users’ behavior based on this
 matrix and then recommended the testing coupons with small distances to each user’s behavior pattern.
 5. Tried Tree Models such as Random Forest, Boosting, Bagging, etc
 6. Evaluated the goodness of our models by plotting ROC, PRC curves, using cross-validation to calculate MSE, etc.
