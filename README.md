@@ -5,7 +5,7 @@ This is a kaggle competition project, Here is a short description: "Using past p
 1. Merged several large tables (coupon area, detail, list, visit info etc.) together in R.
 2. Implemented Artificial Neural Network with backpropagation in Matlab. Used Gender, Age, Coupon Valid Time, Price,
 etc. as input layer neurons and Coupon Location, Genres, Discount Rate as output layer neurons. Calculated the distances
-between behavior predictions for potential users and testing coupon’s info to determine which coupon to recommend.
+between user preference vector and testing coupon’s info to determine which coupon to recommend.
 3. Implemented composite SVM with Sequential Minimal Optimization in Matlab to classify each customer into a specific
 (Coupon Location, Genres, Discount Rate) Category using the same features as in ANN for coupon recommendation.
 4. Implemented Matrix Factorization with Alternating Least Squares to successfully predict the missing purchasing numbers, found users’ behavior based on this
